@@ -1,0 +1,136 @@
+@import url(/css/reset.css);
+@import url('/assets/fonts/Mate');
+
+html {
+    font-family: 'Mate', 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: #24252E;
+}
+
+body {
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color: ghostwhite;
+
+}
+
+.container__information{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.info__phone,
+.info__email,
+.info__githab,
+.info__place,
+.info__oducation {
+    width: 300px;
+    height: 50px;
+    padding: 30px 0 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    background-color: aliceblue;
+}
+
+.wrapper__avatar {
+    width: 300px;
+    height: 300px;
+    padding: 0 0 20px 0;
+} 
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.wrapper__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper__info-text {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #24252E;
+    border-radius: 20px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.skills {
+    width: 300px;
+    height: 50px;
+    padding: 30px 0 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    background-color: aliceblue;
+}
+
+.wrapper__icon2 {
+    width: 15px;
+    height: 15px;
+}
+
+.icon2 {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper__info-name {
+    font-size: 30px;
+    font-weight: 550;
+    font-stretch: extra-expanded;
+    padding: 30px 0;
+}
+
+hr {
+    color: #24252E;
+    height: 2px;
+}
+
+.wrapper__info-job {
+    font-size: 25px;
+    font-weight: 550;
+    font-stretch: extra-expanded;
+    padding: 30px 0;
+}
+
+.wrapper__info-objective {
+    font-size: 20px;
+    padding: 125px 0 0 0; 
+    font-weight: 550;
+}
+
+.wrapper__info-objective2 {
+    font-size: 16px;
+    padding: 25px 0 0 0; 
+}
+
+.wrapper__info-objective3 {
+    font-size: 20px;
+    font-weight: 550;
+    padding: 60px 0 0 0; 
+}
+
+.wrapper__info-objective4 {
+    font-size: 20px;
+    font-weight: 550;
+    padding: 60px 0 0 0; 
+}
